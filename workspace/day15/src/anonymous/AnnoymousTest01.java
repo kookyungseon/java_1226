@@ -44,8 +44,10 @@ public class AnnoymousTest01 {
 		AnnoymousTest01 a = new AnnoymousTest01();
 //		방벙 1) 필드에 익명 자식 객체를 생성 
 		a.dog.cry();
+		
 //		방법 2) 지역 변수의 초기값 대입 방법
 		a.method1();
+		
 //		방법 3) 인경객체 매개변수로 대입
 		a.method2(new Animal() {
 			String name ="무우";
