@@ -5,6 +5,7 @@ public class Main {
 		ClassA ca = new ClassA();
 		
 		ca.printData();
+//		인터페이스 객체화 할때 익명클래스 활용 
 		InterA a = new InterA() {
 			
 			@Override
