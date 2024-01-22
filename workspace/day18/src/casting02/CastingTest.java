@@ -33,8 +33,9 @@ public class CastingTest {
 		
 		SmartTv st1 =(SmartTv)tv3;
 		st1.netflix();
-
 		
+//		잘못된 Down Casting
+//		업캐스팅된 객체가 없을 때, 부모클랫 객체를 자식클래스의 객체로 만들 때 오류 발생 
 		
 		
 		
