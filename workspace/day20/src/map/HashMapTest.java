@@ -22,7 +22,8 @@ public class HashMapTest {
 		
 		System.out.println(map.size()); //HashMap의 크기 (길이)
 		System.out.println(map.keySet()); //key 값들만 따로 모아줌
-		System.out.println(map.values());
+		System.out.println(map.values()); //value값들만 따로 모아줌
+		
 		
 		
 	}
